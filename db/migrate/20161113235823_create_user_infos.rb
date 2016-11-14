@@ -5,6 +5,7 @@ class CreateUserInfos < ActiveRecord::Migration
       t.string :last_name
       t.string :email
       t.string :phone_number
+      t.integer :user_id
 
       t.timestamps null: false
     end
